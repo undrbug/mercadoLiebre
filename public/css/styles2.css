@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+  background-color: #ebebeb;
+}
+
+.background__yellow {
+  background-color: #eac926;
+}
+
+.header_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  flex-direction: row;
+
+  width: 100%;
+}
+
+.img__logo {
+  width: 50%;
+}
+
+.form__searchbar {
+  position: relative;
+  width: 100%;
+}
+
+.searchbar__input {
+  padding: 10px 40px 10px 10px;
+  border-radius: 5px;
+  width: 100%;
+  border:none
+}
+
+.searchbar__button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  padding: 10px;
+  background-color: transparent;
+  color: gray;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchbar__button:hover {
+  color: rgb(250, 27, 27);
+}
+
+.compra_cuotas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.compra_cuotas i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+}
+
+.img__banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Esto hay que borrar despues de ajustar las cards */
+img {
+  width: 100%;
+  height: auto;
+}
+
+.navbar {
+  display: flex;
+  padding: 10px 20px;
+  margin: 0 3%;
+}
+
+.navbar,
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 10px;
+  display: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+.burger-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_menu {
+  margin: 20px 0;
+  font-size: 1.5em;
+  border-radius: 5px;
+  background-color: #1259c3;
+}
+
+.btn_menu i {
+  padding: 8px;
+  color: white;
+}
+
+
+/* Footer */
+hr {
+  width: 100%;
+  margin: 40px 0 20px 0;
+}
+
+footer {
+  text-align: center;
+  margin: 0 20px;
+  padding: 10px;
+}
+
+.footer_i {
+  color: #1259c3;
+  font-size: 2em;
+  margin: 20px 0 10px 0;
+}
+
+.title_footer {
+  font-size: 1.3em;
+}
+
+.copyright {
+  text-align: center;
+  color: #1259c3;
+  font-size: 1em;
+  margin: 40px 0 20px 0;
+}
+
+/* Media Queries */
+
+/* @media (max-width: 768px) {
+    .wrapper {
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .form__searchbar {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  } */

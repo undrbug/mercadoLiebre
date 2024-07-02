@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 5px;
   padding: 0;
   box-sizing: border-box;
@@ -29,7 +29,6 @@ img {
 .svg__icon {
   color: #1259c3 !important;
   width: 2em;
-  /* vertical-align: middle; */
 }
 
 .btn_menu {
@@ -40,7 +39,7 @@ img {
 .cuerpo_texto {
   size: 12px;
 }
-/* (Basado en tu última visita/Ofertas) */
+
 .titulares {
   size: 24px;
 }
@@ -79,10 +78,6 @@ img {
   opacity: 1;
 }
 
-/* .navbar {
-  
-} */
-
 H5 {
   text-align: center;
   color: red;
@@ -91,4 +86,4 @@ H5 {
 .background__yellow {
   background-color: #eac926;
 }
-
+ */
