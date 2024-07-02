@@ -13,54 +13,45 @@
     href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet" />
 
-  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="stylesheet" href="/css/styles2.css" />
   <title>MercadoLiebre</title>
 </head>
 
 <body>
   <header class="background__yellow">
-    <div class="wrapper">
-      <img src="/images/logo.svg" alt="MercadoLiebre" class="img__logo" />
-      <form action="/search" method="get" class="form__searchbar">
-        <input type="search" name="search" class="searchbar__input" placeholder="Buscar..." />
-        <button type="submit" class="searchbar__button">
-          <i class="fa-solid fa-magnifying-glass"></i>
-        </button>
-      </form>
-    </div>
+    <section class="header_container">
 
-    <h4 class="compra_cuotas">
-      <i class="fa-solid fa-hand-holding-dollar"></i>
-      Comprá en cuotas y sin tarjeta de crédito
-    </h4>
+      <div class="wrapper">
+        <img src="/images/logo.svg" alt="MercadoLiebre" class="img__logo" />
+        <form action="/search" method="get" class="form__searchbar">
+          <input type="search" name="search" class="searchbar__input" placeholder="Buscar..." />
+          <button type="submit" class="searchbar__button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+      </div>
+
+      <h4 class="compra_cuotas">
+        <i class="fa-solid fa-hand-holding-dollar"></i>
+        Comprá en cuotas y sin tarjeta de crédito
+      </h4>
+    </section>
 
     <nav class="navbar">
-      <ul class="navigation__menu__items">
+      <ul class="left">
         <li class="navbar__item"><a href="/ofertas">Ofertas</li>
         <li class="navbar__item"><a href="/tiendas">Tiendas oficiales</a></li>
         <li class="navbar__item"><a href="/vender">Vender</a></li>
         <li class="navbar__item"><a href="/help">Ayuda</a></li>
-        <li class="navbar__item">
-          <a href="/register">
-            Creá tu cuenta
-            <i class="fa-solid fa-address-card"></i>
-          </a>
-        </li>
-        <li class="navbar__item">
-          <a href="/login">Ingresá
-            <i class="fa-solid fa-right-to-bracket"></i>
-          </a>
-        </li>
-        <li class="navbar__item">
-          <a href="/carrito">
-            Mis compras
-            <i class="fa-solid fa-cart-shopping"></i>
-          </a>
-        </li>
-
+      </ul>
+      <ul class="right">
+        <li class="navbar__item"><a href="/register">Creá tu cuenta<i class="fa-solid fa-address-card"></i></a></li>
+        <li class="navbar__item"><a href="/login">Ingresá<i class="fa-solid fa-right-to-bracket"></i></a></li>
+        <li class="navbar__item"><a href="/carrito">Mis compras<i class="fa-solid fa-cart-shopping"></i></a></li>
       </ul>
 
     </nav>
+
     <div class="burger-menu">
       <button class="btn_menu">
         <i class="fa-solid fa-bars"></i>
@@ -112,8 +103,8 @@
       <label for="confirm_password">Confirmar contraseña:</label>
       <input type="password" name="confirm_password" id="confirm_password" required minlength="6">
 
-      <button type="submit">Enviar</button>
-      <button type="reset">Borrar</button>
+      <button type="submit" class="submit">Enviar</button>
+      <button type="reset" class="reset">Borrar</button>
 
     </form>
   </div>
