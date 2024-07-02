@@ -322,13 +322,13 @@ button.reset:hover {
 }
 
 .formulario {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   /* border: 1px solid #1259c3; */
   background-color: rgb(204, 198, 198);
   border-radius: 10px;
   margin: 3em auto;
-  max-width: 60%;
+  width: 60%;
 }
 
 .formulario form {
@@ -401,6 +401,16 @@ input:focus {
   .cards_container article {
     flex: 1 1 40%;
   }
+
+  .formulario {
+    /* display: flex; */
+    align-items: center;
+    /* border: 1px solid #1259c3; */
+    background-color: rgb(204, 198, 198);
+    border-radius: 10px;
+    margin: 3em auto;
+    width: 50%;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -452,6 +462,16 @@ input:focus {
 
   .cards_container article {
     flex: 1 1 30%;
+  }
+
+  .formulario {
+    /* display: flex; */
+    align-items: center;
+    /* border: 1px solid #1259c3; */
+    background-color: rgb(204, 198, 198);
+    border-radius: 10px;
+    margin: 3em auto;
+    width: 80%;
   }
 
   footer {
