@@ -26,6 +26,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 1rem;
   gap: 5%;
   flex-direction: row;
 
@@ -34,11 +35,13 @@ body {
 
 .img__logo {
   width: 50%;
+  max-width: 300px;
 }
 
 .form__searchbar {
   position: relative;
   width: 100%;
+  max-width: 400px;
 }
 
 .searchbar__input {
@@ -65,7 +68,7 @@ body {
 }
 
 .searchbar__button:hover {
-  color: rgb(250, 27, 27);
+  color: rgb(0, 0, 0);
 }
 
 .compra_cuotas {
@@ -181,3 +184,24 @@ footer {
       margin-top: 10px;
     }
   } */
+
+  @media screen and (min-width: 1024px) {
+    .wrapper {
+      flex-direction: column;
+      width: 100%;
+      margin-top: 1rem;
+    }
+
+    .form__searchbar {
+      margin-left: 0;
+      margin-top: 1rem;
+    }
+
+    nav ul li {
+      display: block;
+    }
+    
+    .burger-menu {
+      display: none;
+    }
+  }
