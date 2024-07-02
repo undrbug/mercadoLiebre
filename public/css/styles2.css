@@ -15,7 +15,7 @@
 }
 
 h3.producto {
-  display: none;
+  /* display: none; */
   margin: 15px;
   font-size: 16px;
 }
@@ -363,6 +363,7 @@ input:focus {
 @media screen and (min-width: 361px) {
   h3.producto {
     display: block;
+    order: 1;
   }
 }
 
@@ -376,6 +377,7 @@ input:focus {
 
   h3.producto {
     display: block;
+    order: 1;
   }
 
   .burger-menu {
@@ -406,6 +408,10 @@ input:focus {
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
+  }
+
+  article div .producto {
+    display: block;
   }
 
   nav ul li {
