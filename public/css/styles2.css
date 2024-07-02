@@ -125,7 +125,7 @@ nav.navbar {
   display: none;
 }
 
-.navbar {
+/* nav.navbar {
   display: flex;
   padding: 10px 20px;
   margin: 0 3%;
@@ -141,7 +141,7 @@ ul {
 nav ul li {
   display: inline;
   margin: 10px;
-}
+} */
 
 nav ul li a {
   text-decoration: none;
@@ -288,6 +288,7 @@ footer {
   margin: 40px 0 20px 0;
 }
 
+/* FORMULARIOS */
 button.submit {
   background-color: #1259c3;
   color: white;
@@ -373,7 +374,7 @@ input:focus {
     width: 100%;
   }
 
-  .producto {
+  h3.producto {
     display: block;
   }
 
@@ -409,6 +410,24 @@ input:focus {
 
   nav ul li {
     display: block;
+  }
+
+  nav.navbar {
+    display: flex;
+    padding: 10px 20px;
+    margin: 0 3%;
+  }
+  
+  .navbar,
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 10px;
   }
 
   .burger-menu {
