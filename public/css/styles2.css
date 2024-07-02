@@ -4,6 +4,42 @@
   box-sizing: border-box;
 }
 
+.cuerpo_texto {
+  size: 12px;
+}
+/* (Basado en tu última visita/Ofertas) */
+.titulares {
+  margin: 20px;
+  size: 24px;
+  text-align: center;
+}
+
+h3.producto {
+  margin: 15px;
+  font-size: 16px;
+}
+
+.precio_descuento {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.precio {
+  display: flex;
+  width: 30%;
+  font-size: 18px;
+  margin: 15px;
+}
+
+.descuento {
+  display: flex;
+  font-size: 16px;
+  color: #39b54a;
+  margin: 15px;
+}
+
+
 body {
   font-family: Roboto;
   background-color: #ebebeb;
@@ -75,7 +111,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 20px;
   padding: 20px;
 }
 
@@ -86,19 +122,7 @@ body {
   margin-right: 5px;
 }
 
-.img__banner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-}
 
-/* Esto hay que borrar despues de ajustar las cards */
-img {
-  width: 100%;
-  height: auto;
-}
 
 .navbar {
   display: flex;
@@ -140,6 +164,90 @@ nav ul li a {
   padding: 8px;
   color: white;
 }
+
+.img__banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Esto hay que borrar despues de ajustar las cards */
+img {
+  width: 100%;
+  height: auto;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+}
+
+.welcome, .cuerpo_texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+section.cards_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+article img {
+  border-radius: 10px 10px 0 0;
+}
+
+div.descripcion {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: white;
+  border-top: 0.1px solid #ebebeb;
+  margin-bottom: 1.5rem;
+  border-radius: 0 0 10px 10px;
+  padding: 15px;
+}
+
+div.descripcion .producto {
+  display: none;
+}
+
+article.card:hover {
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.8);
+  .producto {
+    display: block;
+  }
+}
+
+.truck {
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  color: #39b54a;
+  border: 0.5px solid #39b54a;
+  background-color: #fff;
+  border-radius: 100%;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+  transition-duration: 0.7s;
+}
+
+
 
 
 /* Footer */
