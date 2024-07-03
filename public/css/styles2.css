@@ -264,7 +264,8 @@ footer {
 .footer_i {
   color: #1259c3;
   font-size: 2em;
-  margin: 20px 0 10px 0;
+  /* margin: 20px 0 20px 0; */
+  margin-bottom: 20px;
 }
 
 .title_footer {
