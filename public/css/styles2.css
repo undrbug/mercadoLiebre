@@ -76,7 +76,7 @@ body {
   width: 18rem;
 }
 
-.searchbar__input {
+.searchbar__input[type="search"] {
   padding: 10px 40px 10px 10px;
   border-radius: 5px;
   width: 100%;
@@ -273,6 +273,10 @@ footer {
   font-size: 1.3em;
 }
 
+.columnas i:hover {
+  color: #0022aa;
+}
+
 .copyright {
   text-align: center;
   color: #1259c3;
@@ -341,6 +345,16 @@ div.formulario input {
 
 input:focus {
   border: 1px solid #1259c3;
+}
+
+input:invalid {
+  border: solid 3px #e74c3c;
+  background-color: #fceae9;
+}
+
+input:valid {
+  border: solid 1px #460aec;
+  background-color: #eafaf1;
 }
 
 .categorias_interes {
@@ -565,10 +579,6 @@ input:focus {
   .columnas {
     flex: 1 1 30%;
     margin: 10px;
-  }
-
-  .columnas i:hover {
-    color: #0022aa;
   }
 
   .copyright {
