@@ -61,6 +61,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 1rem;
   margin-top: 1rem;
   flex-direction: column;
   width: 100%;
@@ -313,13 +314,14 @@ button.reset:hover {
 }
 
 .formulario {
-  /* display: flex; */
   align-items: center;
-  /* border: 1px solid #1259c3; */
   background-color: rgb(204, 198, 198);
   border-radius: 10px;
-  margin: 3em auto;
-  width: 60%;
+  margin: 3rem auto;
+}
+
+.formulario {
+  max-width: 500px;
 }
 
 .formulario form {
@@ -357,6 +359,10 @@ input:focus {
     width: 100%;
   }
 
+  .compra_cuotas {
+    text-align: center;
+  }
+
   .burger-menu {
     margin-top: 1rem;
   }
@@ -375,6 +381,13 @@ input:focus {
 
   .card {
     max-width: 250px;
+  }
+
+  .formulario {
+    align-items: center;
+    background-color: rgb(204, 198, 198);
+    border-radius: 10px;
+    margin: 3rem auto;
   }
 
 }
@@ -410,6 +423,13 @@ input:focus {
 
   .card {
     max-width: 250px;
+  }
+
+  .formulario {
+    align-items: center;
+    background-color: rgb(204, 198, 198);
+    border-radius: 10px;
+    margin: 3rem auto;
   }
 }
 
@@ -465,13 +485,10 @@ input:focus {
   }
 
   .formulario {
-    /* display: flex; */
     align-items: center;
-    /* border: 1px solid #1259c3; */
     background-color: rgb(204, 198, 198);
     border-radius: 10px;
     margin: 3em auto;
-    width: 50%;
   }
 }
 
@@ -531,13 +548,10 @@ input:focus {
   }
 
   .formulario {
-    /* display: flex; */
     align-items: center;
-    /* border: 1px solid #1259c3; */
     background-color: rgb(204, 198, 198);
     border-radius: 10px;
     margin: 3em auto;
-    width: 80%;
   }
 
   footer {
